@@ -35,7 +35,7 @@ class Tank{
 			System.out.println(name + " is still full and disposed");
 		}
 		else {
-			System.out.println(name + " tank is disposed");
+			System.out.println(name + " is disposed as empty");
 			super.finalize();
 		}
 	}
